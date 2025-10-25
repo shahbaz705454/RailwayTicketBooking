@@ -1,0 +1,30 @@
+[
+  {
+    "user_Id": "12345",
+    "name": "Shahbaz",
+    "hashedPassword": "abcd1234",
+    "tickets_booked" : [
+      {
+        "source": "Banglore",
+        "destination": "Delhi",
+        "date_of_travel": "2023-12-08T18:30:00Z",
+        "trian" : {
+          "train_id": "bacd",
+          "train_no": "12222",
+          "seats" : [
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0]
+          ],
+          "stations" : {
+            "Banglore" : "13:50:00",
+            "jaipur" : "13:50:22",
+            "D3lhi": "35:30:23"
+          }
+        }
+
+      }
+    ]
+  }
+]
