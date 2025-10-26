@@ -9,6 +9,17 @@ public class User {
     private List<Ticket> ticketBooked;
     private  String userId;
 
+    public User(String name, String password, String hashedPassword, List<Ticket> ticketBooked, String userId) {
+
+        this.name = name;
+        this.password = password;
+        this.hashedPassword = hashedPassword;
+        this.ticketBooked = ticketBooked;
+        this.userId = userId;
+    }
+
+    public User(){};
+
     public String getName() {
         return name;
     }
@@ -48,4 +59,12 @@ public class User {
     public void setUserId(String userId) {
         this.userId = userId;
     }
+
+    public void printTickets(){
+        for (int i = 0; i < ticketBooked.size(); i++) {
+            System.out.println(ticketBooked.get(i));
+
+        }
+    }
+
 }
